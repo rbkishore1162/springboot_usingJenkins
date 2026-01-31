@@ -35,7 +35,7 @@ pipeline {
             when { expression { params.ACTION == 'build' } }
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/Ankarthik0011/SpringBoot_Project_deploy_using_Jenkins_Automation.git',
+                    url: 'https://github.com/rbkishore1162/springboot_usingJenkins.git',
                     credentialsId: 'github-creds'
             }
         }
